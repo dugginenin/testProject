@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <wdnm:Diagram xmlns:wdnm="http://workday.com/studio/editors/notation">
   <element href="assembly.xml#WorkdayAssembly"/>
-  <visualProperties>
+  <visualProperties x="102" y="168">
     <element href="assembly.xml#StartHere"/>
   </visualProperties>
-  <visualProperties>
+  <visualProperties x="392" y="168">
     <element href="assembly.xml#AsyncMediation"/>
   </visualProperties>
   <connections type="routesTo">
