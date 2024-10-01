@@ -14,7 +14,7 @@
         <cc:workday-in id="StartHere" routes-to="AsyncMediation">
             <cc:integration-system name="TEST"/>
         </cc:workday-in>
-        <cc:async-mediation id="AsyncMediation">
+        <cc:async-mediation id="AsyncMediation" routes-to="AsyncMediation0">
             <cc:steps>
                 <cc:log id="Log">
                     <cc:log-message>
@@ -31,6 +31,11 @@
                         <cc:message-content/>
                     </cc:message>
                 </cc:write>
+            </cc:steps>
+        </cc:async-mediation>
+        <cc:async-mediation id="AsyncMediation0">
+            <cc:steps>
+                <cc:store id="Store"/>
             </cc:steps>
         </cc:async-mediation>
 	</cc:assembly>
