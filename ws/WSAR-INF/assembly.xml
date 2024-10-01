@@ -36,6 +36,7 @@
         <cc:async-mediation id="AsyncMediation0">
             <cc:steps>
                 <cc:store id="Store"/>
+                <cc:store id="Store0"/>
             </cc:steps>
         </cc:async-mediation>
 	</cc:assembly>
