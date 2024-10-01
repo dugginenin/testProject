@@ -10,6 +10,9 @@
   <visualProperties x="733" y="129">
     <element href="assembly.xml#AsyncMediation0"/>
   </visualProperties>
+  <visualProperties x="728" y="276">
+    <element href="assembly.xml#AsyncMediation00"/>
+  </visualProperties>
   <connections type="routesTo">
     <source href="assembly.xml#StartHere"/>
     <target href="assembly.xml#AsyncMediation"/>
@@ -17,5 +20,9 @@
   <connections type="routesTo" sourceAnchorX="1.0" sourceAnchorY="0.2755102040816326" targetAnchorX="0.10674157303370786" targetAnchorY="0.23469387755102042">
     <source href="assembly.xml#AsyncMediation"/>
     <target href="assembly.xml#AsyncMediation0"/>
+  </connections>
+  <connections type="routesTo" sourceAnchorX="0.0" sourceAnchorY="0.061224489795918366" targetAnchorX="0.21808510638297873" targetAnchorY="0.16326530612244897">
+    <source href="assembly.xml#AsyncMediation0"/>
+    <target href="assembly.xml#AsyncMediation00"/>
   </connections>
 </wdnm:Diagram>
